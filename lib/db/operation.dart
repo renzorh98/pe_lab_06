@@ -24,7 +24,7 @@ class Operation {
         await database.query("usuarios");
 
     for (var n in usuariosMap) {
-      print("________" + n['title']);
+      print("________" + n['nombreCompleto']);
     }
 
     return List.generate(
